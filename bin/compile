@@ -452,7 +452,7 @@ case "${TOOL}" in
         ensureGB "${GBVersion}"
 
         cd $build
-        step "Running: gb vendor restore
+        step "Running: gb vendor restore"
         gb vendor restore
         
         step "Running: gb build ${FLAGS[@]}"
